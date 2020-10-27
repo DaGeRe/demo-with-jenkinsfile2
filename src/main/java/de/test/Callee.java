@@ -22,6 +22,7 @@ public class Callee {
    }
 
    public void method2() {
-
+      // This change should not be detected by PeASS since it is not covered by a test
+      System.out.println("This is a test");
    }
 }
