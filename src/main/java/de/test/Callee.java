@@ -15,7 +15,7 @@ public class Callee {
 
    private void innerMethod() {
       try {
-         Thread.sleep(13);
+         Thread.sleep(4);
       } catch (final InterruptedException e) {
          e.printStackTrace();
       }
