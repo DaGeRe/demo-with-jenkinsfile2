@@ -10,4 +10,12 @@ public class CalleeTest {
       callee.method1();
       Assert.assertNotNull(callee);
    }
+   
+   @Test
+   public void onlyCallMethod2() {
+      final Callee callee = new Callee();
+      callee.method1();
+      callee.method1();
+      Assert.assertNotNull(callee);
+   }
 }
