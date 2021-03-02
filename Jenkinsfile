@@ -8,7 +8,7 @@ pipeline {
 	}
 	stage('test') {
 	    steps {
-		measure vms: '2' 
+		measure VMs: '2' 
 	    }
 	}
     }
