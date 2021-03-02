@@ -8,7 +8,7 @@ pipeline {
 	}
 	stage('test') {
 	    steps {
-		measure
+		junit 'build/reports/**/*.xml'
 	    }
 	}
     }
